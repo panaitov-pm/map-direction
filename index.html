@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Google Map</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<link rel="icon" href="favicon.png"/>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css" />
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<!-- BEGIN map-box  -->
+	<div class="map-box">
+		<!-- BEGIN map  -->
+		<div id="map" class="map">
+		    
+		</div>
+		<!-- END map -->
+		<div class="address-form">
+			<div class="address-form__item">
+				<input class="address-form__field start-route" type="text" name="first-address" placeholder="Start route">
+			</div>
+			<div class="address-form__item">
+				<input class="address-form__field end-route" type="text" name="second-address" placeholder="End route">
+			</div>
+			<button class="address-form__btn" type="submit">Run</button>
+		</div>
+		<!-- END address-form -->
+	</div>
+	<!-- END map-box -->
+	<script src="js/jquery-1.12.4.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1F2m24tGsNa8kw2Ck1GFtFJqvB9e0-Zo&callback"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
