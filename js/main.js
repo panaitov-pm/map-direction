@@ -31,6 +31,7 @@
 			$(document).on('click', '.address-form__btn', function(event) {
 				event.preventDefault();
 				
+				
 				var directionsDisplay = new google.maps.DirectionsRenderer(),
 					directionsService = new google.maps.DirectionsService(),
 					start = $('.start-route').val(),
